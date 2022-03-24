@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     
-    <title>CPU硬件与C编译器已完成 | 7 周 年 纪 念 版 8 位 C P U</title>
+    <title>CPU硬件与C编译器已设计完成 | 7 周 年 纪 念 版 8 位 C P U</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -56,7 +56,7 @@
     <!-- Title -->
     <h1 class="blog-post-title">
         <a href="/2022/03/25/CPU硬件与C编译器已完成/">
-            CPU硬件与C编译器已完成
+            CPU硬件与C编译器已设计完成
         </a>
     </h1>
     <!-- Date and Author -->
@@ -68,7 +68,19 @@
     
 
     <!-- Content -->
-    
+    <p>这是一个自主原创设计的精简8位CPU, 使用了74系列逻辑芯片及SRAM存储器组成, 电路结构简单非常容易DIY, 程序下载通过74逻辑芯片搭建的UART串行转并行电路实现(USB转UART使用CH340), 目前测试运行主频在66MHz(VCC &#x3D; 3.85V);</p>
+<p>C编译器则使用了LCC编译器的前端代码并编写后端从而实现ANSI标准C编译, LCC只支持到32位整型, 为了使LCC支持64位整型, 对它的前端代码进行了小小修改, 目前可支持到64位long long类型, 并且支持64位double双精度浮点类型.</p>
+<p>本人目前在外地出差, 忙完后再更新最新的文件.</p>
+<p><img src="/image/1.jpg"></p>
+<p><img src="/image/2.jpg"></p>
+<p><img src="/image/3.jpg"></p>
+<p><img src="/image/4.jpg"></p>
+<p><img src="/image/5.jpg"></p>
+<p><img src="/image/6.jpg"></p>
+<p><img src="/image/7.jpg"></p>
+<p><img src="/image/8.jpg"></p>
+<p><img src="/image/9.jpg"></p>
+
 
     <!-- Social share choices -->
     
